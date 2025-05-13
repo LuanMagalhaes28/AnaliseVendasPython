@@ -1,59 +1,46 @@
-# 📊 Análise de Vendas - Rede Varejista
+# Análise de Vendas - Rede Varejista
 
-🗂️ Descrição do Projeto
-
+## 📝 Descrição do Projeto
 Este projeto tem como objetivo analisar os dados de vendas de uma rede varejista, explorando o desempenho das lojas, os produtos mais populares e os principais indicadores de faturamento. Esta análise foi desenvolvida com foco em técnicas de storytelling para transformar dados em insights acionáveis.
-
-📝 Contexto do Negócio
-
-Imagine que você é um analista de dados contratado para ajudar uma grande rede varejista a entender seu desempenho de vendas. Através dessa análise, queremos responder a perguntas importantes, como:
-
-Quais são as lojas mais lucrativas?
-
-Quais produtos são os mais populares?
-
-Existe alguma relação entre o preço dos produtos e a quantidade vendida?
-
+<br>
+Ao analisarmos o desempenho de vendas de uma grande rede varejista, queremos responder a perguntas importantes, como:
+<br>
+- Quais são as lojas mais lucrativas?
+- Quais produtos são os mais populares?
+- Existe alguma relação entre o preço dos produtos e a quantidade vendida?
+<br>
 O objetivo é identificar oportunidades de crescimento e áreas que precisam de atenção para otimizar as vendas.
+<br>
 
-📊 Análises Realizadas
+## 📊 Análises Realizadas
+<br>
+1. Limpeza e Tratamento dos Dados<br>
+- Remoção de espaços nos nomes das colunas.<br>
+- Tratamento de valores duplicados.<br>
+- Verificação de valores nulos.<br>
+<br>
+2. Desempenho por Loja<br>
+- Lojas com Maior Faturamento: Identificando as lojas que geram o maior volume de receita.<br>
+- Lojas com Maior Quantidade Vendida: Analisando as lojas que mais vendem em termos de volume.<br>
+- Lojas com Maior Ticket Médio: Avaliando a eficiência das lojas em gerar receita por produto.<br>
+<br>
+3. Análise de Produtos<br>
+- Top 5 Produtos Mais Vendidos: Produtos que representam o maior volume de vendas.<br>
+- Top 5 Produtos Mais Lucrativos: Produtos que trazem a maior receita.<br>
+- Top 5 Produtos com Maior Ticket Médio: Produtos com o maior valor médio por venda.<br>
+<br>
+4. Correlação entre Preço e Volume de Vendas<br>
+- Analisei a relação entre o valor unitário dos produtos e a quantidade vendida para entender se existe alguma tendência importante. E cheguei a conclusão que a correlação é praticamente nula, pois Produtos de baixo valor possuem alta demanda.
+<br>
 
-1. Limpeza e Tratamento dos Dados
-
-Remoção de espaços nos nomes das colunas.
-
-Tratamento de valores duplicados.
-
-Verificação de valores nulos.
-
-2. Desempenho por Loja
-
-Top 5 Lojas com Maior Faturamento: Identificamos as lojas que geram o maior volume de receita.
-
-Top 5 Lojas com Maior Quantidade Vendida: Analisamos as lojas que mais vendem em termos de volume.
-
-Top 5 Lojas com Maior Ticket Médio: Avaliamos a eficiência das lojas em gerar receita por produto.
-
-3. Análise de Produtos
-
-Top 5 Produtos Mais Vendidos: Produtos que representam o maior volume de vendas.
-
-Top 5 Produtos Mais Lucrativos: Produtos que trazem a maior receita.
-
-Top 5 Produtos com Maior Ticket Médio: Produtos com o maior valor médio por venda.
-
-4. Correlação entre Preço e Volume de Vendas
-
-Analisamos a relação entre o valor unitário dos produtos e a quantidade vendida para entender se existe alguma tendência importante.
-
-🚀 Conclusão e Próximos Passos
-
+## 🚀 Conclusão e Próximos Passos
+<br>
 Os dados revelaram que algumas lojas têm desempenho superior em faturamento, enquanto outras se destacam em volume de vendas. Produtos com alto ticket médio nem sempre são os mais vendidos, indicando oportunidades para ajustar estratégias de precificação e marketing.
+<br>
+Para os próximos passos, recomenda-se:<br>
+- Focar em produtos de alta demanda para campanhas de marketing.<br>
+- Revisar a estratégia de precificação para produtos com alta margem.<br>
+- Investir em melhorar o ticket médio nas lojas com maior volume de vendas.<br>
+<br><br>
 
-Para os próximos passos, recomenda-se:
-
-Focar em produtos de alta demanda para campanhas de marketing.
-
-Revisar a estratégia de precificação para produtos com alta margem.
-
-Investir em melhorar o ticket médio nas lojas com maior volume de vendas.
+➡️<a href="https://github.com/LuanMagalhaes28/AnaliseVendasPython/blob/main/An%C3%A1lise%20Vendas%20Python.ipynb"> Clique aqui</a> para acessar o código completo.
